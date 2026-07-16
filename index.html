@@ -82,8 +82,11 @@
   header.nav.scrolled .nav-cta:hover{background:var(--gold);color:#fff!important}
   .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px;position:relative;z-index:120}
   .burger span{width:26px;height:2px;background:#fff;transition:.35s;display:block}
-  header.nav.scrolled .burger span,.menu-open .burger span{background:var(--bark)}
-  .menu-open .burger span{background:#fff}
+  header.nav.scrolled .burger span{background:var(--bark)}
+  .menu-open .burger span{background:#fff!important}
+  .menu-open .brand,.menu-open .brand small{color:#fff!important}
+  .menu-open .nav-cta{color:#fff!important;border-color:var(--gold-soft)!important}
+  body.menu-open{overflow:hidden}
   .menu-open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
   .menu-open .burger span:nth-child(2){opacity:0}
   .menu-open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
